@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="18122" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+    <device id="watch38"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="18022"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="WristCompanion_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <label width="136" height="20" alignment="left" text="Finger Tap COunt" textAlignment="center" id="OQg-mM-GbG"/>
+                        <button width="1" alignment="left" title="Button" id="K5R-fm-757"/>
+                        <group width="1" alignment="left" id="0tr-Vb-jav">
+                            <items>
+                                <button width="30" height="100" alignment="left" id="vq2-mQ-SRC">
+                                    <connections>
+                                        <action selector="didPokeTarget" destination="AgC-eL-Hgc" id="crn-9t-fj4"/>
+                                    </connections>
+                                </button>
+                                <button height="80" alignment="left" backgroundImage="55_33-removebg-preview" id="HC7-2Y-4ZM">
+                                    <connections>
+                                        <action selector="didPokeTarget" destination="AgC-eL-Hgc" id="mEy-OW-HYz"/>
+                                    </connections>
+                                </button>
+                                <button width="30" height="100" alignment="right" id="gkS-My-vvb">
+                                    <connections>
+                                        <action selector="didPokeTarget" destination="AgC-eL-Hgc" id="dqt-qy-6z0"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                    </items>
+                    <connections>
+                        <outlet property="target" destination="HC7-2Y-4ZM" id="dAP-US-E4b"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="9" y="-44"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="55_33-removebg-preview" width="500" height="500"/>
+    </resources>
+</document>
