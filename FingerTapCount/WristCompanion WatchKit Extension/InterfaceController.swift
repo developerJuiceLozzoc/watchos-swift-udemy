@@ -10,15 +10,10 @@ import Foundation
 
 
 class InterfaceController: WKInterfaceController {
-    var count: Int = 0
-
-    @IBOutlet weak var target: WKInterfaceButton!
-    @IBAction func didPokeTarget() {
-        print("did tap")
-        count += 1
-        target.setTitle("\(count)")
-        
-    }
+    
+    @IBOutlet weak var randomNumber: WKInterfaceLabel!
+    
+    @IBOutlet weak var zzz: WKInterfaceButton!
     override func awake(withContext context: Any?) {
         // Configure interface objects here.
     }
@@ -28,7 +23,13 @@ class InterfaceController: WKInterfaceController {
     }
     
     override func didDeactivate() {
-        // This method is called when watch view controller is no longer visible
+        // This method is called when watch view controller is no lon
+        
+    }
+    
+    @IBAction func tapButtonPressed() {
+        randomNumber.setText("\(Int.random(in: 0...256))")
     }
 
 }
+

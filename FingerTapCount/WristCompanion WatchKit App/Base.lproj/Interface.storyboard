@@ -11,37 +11,23 @@
             <objects>
                 <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="WristCompanion_WatchKit_App" customModuleProvider="target">
                     <items>
-                        <label width="136" height="20" alignment="left" text="Finger Tap COunt" textAlignment="center" id="OQg-mM-GbG"/>
-                        <button width="1" alignment="left" title="Button" id="K5R-fm-757"/>
-                        <group width="1" alignment="left" id="0tr-Vb-jav">
-                            <items>
-                                <button width="30" height="100" alignment="left" id="vq2-mQ-SRC">
-                                    <connections>
-                                        <action selector="didPokeTarget" destination="AgC-eL-Hgc" id="crn-9t-fj4"/>
-                                    </connections>
-                                </button>
-                                <button height="80" alignment="left" backgroundImage="55_33-removebg-preview" id="HC7-2Y-4ZM">
-                                    <connections>
-                                        <action selector="didPokeTarget" destination="AgC-eL-Hgc" id="mEy-OW-HYz"/>
-                                    </connections>
-                                </button>
-                                <button width="30" height="100" alignment="right" id="gkS-My-vvb">
-                                    <connections>
-                                        <action selector="didPokeTarget" destination="AgC-eL-Hgc" id="dqt-qy-6z0"/>
-                                    </connections>
-                                </button>
-                            </items>
-                        </group>
+                        <label height="42" alignment="left" text="Random number generator" numberOfLines="2" id="Pz6-CT-jEL"/>
+                        <button width="1" alignment="left" title="TAP" id="rS8-VV-iuz">
+                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <color key="backgroundColor" red="1" green="0.94806189919999995" blue="0.12844639420000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <connections>
+                                <action selector="tapButtonPressed" destination="AgC-eL-Hgc" id="XSQ-BI-nEA"/>
+                            </connections>
+                        </button>
+                        <label height="42" alignment="left" id="6Jc-Nl-jkn"/>
                     </items>
                     <connections>
-                        <outlet property="target" destination="HC7-2Y-4ZM" id="dAP-US-E4b"/>
+                        <outlet property="randomNumber" destination="6Jc-Nl-jkn" id="E7P-Dl-uiY"/>
+                        <outlet property="zzz" destination="rS8-VV-iuz" id="v2Y-5e-KEI"/>
                     </connections>
                 </controller>
             </objects>
             <point key="canvasLocation" x="9" y="-44"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="55_33-removebg-preview" width="500" height="500"/>
-    </resources>
 </document>
