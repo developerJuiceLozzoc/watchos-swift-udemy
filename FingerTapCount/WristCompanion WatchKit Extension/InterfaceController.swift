@@ -10,26 +10,69 @@ import Foundation
 
 
 class InterfaceController: WKInterfaceController {
+    @IBOutlet weak var cookness1: WKInterfaceButton!
+    @IBOutlet weak var cookness2: WKInterfaceButton!
+    @IBOutlet weak var cookness3: WKInterfaceButton!
+    @IBOutlet weak var reset: WKInterfaceButton!
+    @IBOutlet weak var timeRemaining: WKInterfaceTimer!
+    var buttons: [WKInterfaceButton] = []
     
-    @IBOutlet weak var randomNumber: WKInterfaceLabel!
+    @IBAction func cook1Pressed() {
+        StartTimer(with: 5)
+        
+    }
+    @IBAction func cook2Pressed() {
+        StartTimer(with: 10)
+    }
+    @IBAction func cook3Pressed() {
+        StartTimer(with: 3600)
+
+    }
+    @IBAction func resetPressed() {
+        timerHasStopped()
+        timeRemaining.stop()
+    }
     
-    @IBOutlet weak var zzz: WKInterfaceButton!
+    private func StartTimer(with lengthInSeconds: Int) {
+        timeRemaining.setDate(Date(timeInterval: TimeInterval(lengthInSeconds), since: Date()))
+        timeRemaining.start()
+        for button in self.buttons {
+            button.setHidden(true)
+        }
+       timeRemaining.setHidden(false)
+        reset.setHidden(false)
+        DispatchQueue.main.asyncAfter(deadline: .now() + Double(lengthInSeconds)) { [weak self] in
+            guard let self = self else { return }
+            self.timerHasStopped()
+        }
+       
+    }
+
+    func timerHasStopped() {
+        print("timer done")
+
+        for button in buttons {
+            button.setHidden(false)
+        }
+        timeRemaining.setHidden(true)
+
+        
+    }
+    
     override func awake(withContext context: Any?) {
-        // Configure interface objects here.
+        buttons = [cookness1,cookness2,cookness3,reset]
+//        timeRemaining.setHidden(true)
     }
     
     override func willActivate() {
-        // This method is called when watch view controller is about to be visible to user
+        timeRemaining.setHidden(true)
     }
     
     override func didDeactivate() {
         // This method is called when watch view controller is no lon
         
     }
-    
-    @IBAction func tapButtonPressed() {
-        randomNumber.setText("\(Int.random(in: 0...256))")
-    }
+
 
 }
 
