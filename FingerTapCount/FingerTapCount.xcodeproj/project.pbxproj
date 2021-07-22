@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B53CF66626AA11FC00756255 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5B7D26226A8526A00BAFE2D /* Assets.xcassets */; };
 		B5B7D24226A8520A00BAFE2D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B7D24126A8520A00BAFE2D /* AppDelegate.swift */; };
 		B5B7D24426A8520A00BAFE2D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B7D24326A8520A00BAFE2D /* SceneDelegate.swift */; };
 		B5B7D24626A8520A00BAFE2D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B7D24526A8520A00BAFE2D /* ViewController.swift */; };
@@ -324,6 +325,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5B7D27526A8526A00BAFE2D /* Assets.xcassets in Resources */,
+				B53CF66626AA11FC00756255 /* Assets.xcassets in Resources */,
 				B5B7D28826A9D8BA00BAFE2D /* ZenTokyoZoo-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

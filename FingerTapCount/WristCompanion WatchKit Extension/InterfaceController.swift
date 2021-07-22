@@ -10,69 +10,60 @@ import Foundation
 
 
 class InterfaceController: WKInterfaceController {
-    @IBOutlet weak var cookness1: WKInterfaceButton!
-    @IBOutlet weak var cookness2: WKInterfaceButton!
-    @IBOutlet weak var cookness3: WKInterfaceButton!
-    @IBOutlet weak var reset: WKInterfaceButton!
-    @IBOutlet weak var timeRemaining: WKInterfaceTimer!
-    var buttons: [WKInterfaceButton] = []
     
-    @IBAction func cook1Pressed() {
-        StartTimer(with: 5)
-        
-    }
-    @IBAction func cook2Pressed() {
-        StartTimer(with: 10)
-    }
-    @IBAction func cook3Pressed() {
-        StartTimer(with: 3600)
-
-    }
-    @IBAction func resetPressed() {
-        timerHasStopped()
-        timeRemaining.stop()
-    }
+    @IBOutlet var coinButton: WKInterfaceButton!
     
-    private func StartTimer(with lengthInSeconds: Int) {
-        timeRemaining.setDate(Date(timeInterval: TimeInterval(lengthInSeconds), since: Date()))
-        timeRemaining.start()
-        for button in self.buttons {
-            button.setHidden(true)
-        }
-       timeRemaining.setHidden(false)
-        reset.setHidden(false)
-        DispatchQueue.main.asyncAfter(deadline: .now() + Double(lengthInSeconds)) { [weak self] in
-            guard let self = self else { return }
-            self.timerHasStopped()
-        }
-       
-    }
-
-    func timerHasStopped() {
-        print("timer done")
-
-        for button in buttons {
-            button.setHidden(false)
-        }
-        timeRemaining.setHidden(true)
-
-        
-    }
+    private var numberOfTimesCoinAnimated: Int = 0
+    private var isSpinning: Bool = false
+    private var resultCoinSide: String = ""
+    private let coinViews: [UIImage?] = [
+        UIImage(named: "head.png"),
+        UIImage(named: "2.png"),
+        UIImage(named: "3.png"),
+        UIImage(named: "4.png"),
+        UIImage(named: "tail.png")]
+  
     
     override func awake(withContext context: Any?) {
-        buttons = [cookness1,cookness2,cookness3,reset]
-//        timeRemaining.setHidden(true)
     }
     
     override func willActivate() {
-        timeRemaining.setHidden(true)
     }
     
     override func didDeactivate() {
-        // This method is called when watch view controller is no lon
         
     }
 
-
+    @IBAction func didTapCoin() {
+        if(isSpinning) {
+            return
+        }
+        else{
+            let result: Int = Int.random(in: 0...100)
+            self.resultCoinSide = result > 30 ? "tails" : "head"
+            numberOfTimesCoinAnimated = 0
+            isSpinning = true
+            flipCoin()
+        }
+        
+    }
+    
+    
+    private func flipCoin() {
+       if numberOfTimesCoinAnimated < 30 {
+            DispatchQueue.main.asyncAfter(deadline: .now() + 0.06) {
+                self.coinButton.setBackgroundImage(self.coinViews[self.numberOfTimesCoinAnimated%5])
+                self.numberOfTimesCoinAnimated += 1
+                self.flipCoin()
+            }
+       } else {
+        var coinside: UIImage?
+        coinside = resultCoinSide == "tails" ? coinViews[4] : coinViews[0]
+        coinButton.setBackgroundImage(coinside)
+        isSpinning = false
+        
+       }
+    }
+    
 }
 
