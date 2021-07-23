@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="18122" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+    <device id="watch38"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="18022"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController">
+                    <items>
+                        <group width="1" alignment="left" id="ubn-G4-ru2">
+                            <items>
+                                <imageView width="26" height="40" alignment="left" image="thermometer" id="EyE-gz-FY7"/>
+                                <label alignment="left" text="Temperature Converter" textAlignment="center" numberOfLines="2" id="NHO-od-j6l"/>
+                            </items>
+                        </group>
+                        <slider width="1" alignment="left" value="1" minimum="-10" maximum="30" steps="8" id="iAt-Ij-Y9y">
+                            <connections>
+                                <action selector="stepperDidPress:" destination="AgC-eL-Hgc" id="viW-PW-EJg"/>
+                            </connections>
+                        </slider>
+                        <label alignment="left" text="32˚F = 0˚C" numberOfLines="2" id="UJk-jV-JlO">
+                            <fontDescription key="font" style="UICTFontTextStyleTitle2"/>
+                        </label>
+                    </items>
+                    <connections>
+                        <outlet property="temperatureLabel" destination="UJk-jV-JlO" id="4qz-J3-r2N"/>
+                        <outlet property="temperatureSlider" destination="iAt-Ij-Y9y" id="PNP-jW-cHJ"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="9" y="-44"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="thermometer" width="187" height="334"/>
+    </resources>
+</document>
