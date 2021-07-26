@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+   cars.plist
+   FingerTapCount
+
+   Created by Conner M on 7/26/21.
+   Copyright (c) 2021 ___ORGANIZATIONNAME___. All rights reserved.
+-->
+<plist version="1.0">
+<dict>
+    <key>item 1</key>
+    <array>
+        <string>SSC Ultimate Aero TT-267mph.jpg</string>
+        <string>267</string>
+    </array>
+    <key>item 2</key>
+    <array>
+        <string>Vector Avtech WX8 Hypercar-270mph.jpg</string>
+        <string>270</string>
+    </array>
+    <key>item 3</key>
+    <array>
+        <string>SSC Ultimate Aero TT-256mph.jpg</string>
+        <string>256</string>
+    </array>
+    <key>item 4</key>
+    <array>
+        <string>SSC Tuatara-267mph.jpg</string>
+        <string>267</string>
+    </array>
+    <key>item 5</key>
+    <array>
+        <string>Koenigsegg Agera R-261mph.jpg</string>
+        <string>261</string>
+    </array>
+    <key>item 6</key>
+    <array>
+        <string>Koenigsegg Agera One-267mph.jpg</string>
+        <string>267</string>
+    </array>
+    <key>item 7</key>
+    <array>
+        <string>Hennessey Venom GT Spyder-270mph.jpg</string>
+        <string>270</string>
+    </array>
+    <key>item 8</key>
+    <array>
+        <string>9ff Porsche 911 GT2 GTurbo 1200-257mph.jpg</string>
+        <string>257</string>
+    </array>
+    <key>item 9</key>
+    <array>
+        <string>Bugatti Veyron 16.4 Super Sport-268mph.jpg</string>
+        <string>268</string>
+    </array>
+    <key>item 10</key>
+    <array>
+        <string>9ff GT9-R Porsche-256mph.jpg</string>
+        <string>256</string>
+    </array>
+</dict>
+</plist>
