@@ -11,50 +11,45 @@
             <objects>
                 <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="WristCompanion_WatchKit_Extension">
                     <items>
-                        <table alignment="left" id="j0y-Bh-osK">
+                        <group width="1" alignment="left" id="M8u-KW-rcu">
                             <items>
-                                <tableRow identifier="ActressRow" id="LSz-UF-jaL" customClass="ActressRow" customModule="WristCompanion_WatchKit_Extension">
-                                    <group key="rootItem" width="1" height="0.0" alignment="left" layout="vertical" id="3LN-zD-rfM">
-                                        <items>
-                                            <label height="20" alignment="left" text="Mia Khalifa" id="1Xv-3U-2vy"/>
-                                            <imageView alignment="left" id="Z0O-GE-db3"/>
-                                        </items>
-                                    </group>
-                                    <connections>
-                                        <outlet property="name" destination="1Xv-3U-2vy" id="VUn-rL-g6S"/>
-                                        <outlet property="pp" destination="Z0O-GE-db3" id="kPf-cA-rtB"/>
-                                    </connections>
-                                </tableRow>
+                                <imageView width="44" height="20" alignment="center" image="slot-J-down" id="we2-xb-KWR"/>
+                                <imageView width="44" height="20" alignment="center" image="slot-J-down" id="Sbh-Bl-usu"/>
+                                <imageView width="44" height="20" alignment="center" image="slot-J-down" id="hPK-fQ-U6p"/>
                             </items>
-                        </table>
+                        </group>
+                        <group width="1" alignment="left" id="nFQ-nC-bIe">
+                            <items>
+                                <imageView width="44" height="20" alignment="center" image="slot-7-up" id="cHB-Mh-ff8"/>
+                                <imageView width="44" height="20" alignment="center" image="slot-7-up" id="fJC-5o-p9e"/>
+                                <imageView width="44" height="20" alignment="center" image="slot-7-up" id="sUL-he-TwI"/>
+                            </items>
+                        </group>
+                        <group width="1" alignment="left" id="kgF-zS-bQ2">
+                            <items>
+                                <imageView width="44" height="20" alignment="center" image="slot-7-down" id="isc-85-XJR"/>
+                                <imageView width="44" height="20" alignment="center" image="slot-7-down" id="d1J-gg-dxK"/>
+                                <imageView width="44" height="20" alignment="center" image="slot-7-down" id="KXb-yU-aTg"/>
+                            </items>
+                        </group>
+                        <group width="1" alignment="left" id="cHJ-eZ-qcu">
+                            <items>
+                                <imageView width="44" height="20" alignment="center" image="slot-K-up" id="e4F-xT-Qyy"/>
+                                <imageView width="44" height="20" alignment="center" image="slot-K-up" id="XJ7-sc-2hH"/>
+                                <imageView width="44" height="20" alignment="center" image="slot-K-up" id="bZB-49-FNp"/>
+                            </items>
+                        </group>
+                        <button width="1" alignment="left" title="Spin" id="nag-py-LSd"/>
                     </items>
-                    <connections>
-                        <outlet property="actressTable" destination="j0y-Bh-osK" id="W7I-TB-rER"/>
-                    </connections>
                 </controller>
             </objects>
             <point key="canvasLocation" x="777" y="-125"/>
         </scene>
-        <!--ActressDetailInterfaceController-->
-        <scene sceneID="IC7-Zs-RDW">
-            <objects>
-                <controller identifier="ActressDetailInterfaceController" id="kqN-bW-8XN" customClass="ActressDetailInterfaceController" customModule="WristCompanion_WatchKit_Extension">
-                    <items>
-                        <label width="136" height="19" alignment="left" text="celbreity name" textAlignment="center" id="IKu-Ex-6c9"/>
-                        <imageView alignment="left" image="square.and.arrow.up" catalog="system" id="aOS-7D-lSp"/>
-                        <label alignment="left" text="Label" numberOfLines="30" id="GOe-4x-qqK"/>
-                    </items>
-                    <connections>
-                        <outlet property="bio" destination="GOe-4x-qqK" id="nQw-KA-vlm"/>
-                        <outlet property="name" destination="IKu-Ex-6c9" id="Rcm-HX-Vv1"/>
-                        <outlet property="pp" destination="aOS-7D-lSp" id="hEr-Pv-eAU"/>
-                    </connections>
-                </controller>
-            </objects>
-            <point key="canvasLocation" x="1079" y="-133"/>
-        </scene>
     </scenes>
     <resources>
-        <image name="square.and.arrow.up" catalog="system" width="115" height="128"/>
+        <image name="slot-7-down" width="130" height="65"/>
+        <image name="slot-7-up" width="130" height="65"/>
+        <image name="slot-J-down" width="130" height="65"/>
+        <image name="slot-K-up" width="130" height="65"/>
     </resources>
 </document>
