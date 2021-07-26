@@ -8,29 +8,29 @@
 
 /* Begin PBXBuildFile section */
 		B53CF66626AA11FC00756255 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5B7D26226A8526A00BAFE2D /* Assets.xcassets */; };
-		B573A29626AEFF6A00BE5962 /* SSC Ultimate Aero TT-267mph.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B573A28C26AEFF6A00BE5962 /* SSC Ultimate Aero TT-267mph.jpg */; };
-		B573A29726AEFF6A00BE5962 /* SSC Ultimate Aero TT-267mph.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B573A28C26AEFF6A00BE5962 /* SSC Ultimate Aero TT-267mph.jpg */; };
-		B573A29826AEFF6A00BE5962 /* Hennessey Venom GT Spyder-270mph.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B573A28D26AEFF6A00BE5962 /* Hennessey Venom GT Spyder-270mph.jpg */; };
-		B573A29926AEFF6A00BE5962 /* Hennessey Venom GT Spyder-270mph.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B573A28D26AEFF6A00BE5962 /* Hennessey Venom GT Spyder-270mph.jpg */; };
-		B573A29A26AEFF6A00BE5962 /* 9ff GT9-R Porsche-256mph.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B573A28E26AEFF6A00BE5962 /* 9ff GT9-R Porsche-256mph.jpg */; };
-		B573A29B26AEFF6A00BE5962 /* 9ff GT9-R Porsche-256mph.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B573A28E26AEFF6A00BE5962 /* 9ff GT9-R Porsche-256mph.jpg */; };
-		B573A29C26AEFF6A00BE5962 /* SSC Tuatara-267mph.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B573A28F26AEFF6A00BE5962 /* SSC Tuatara-267mph.jpg */; };
-		B573A29D26AEFF6A00BE5962 /* SSC Tuatara-267mph.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B573A28F26AEFF6A00BE5962 /* SSC Tuatara-267mph.jpg */; };
-		B573A29E26AEFF6A00BE5962 /* Koenigsegg Agera R-261mph.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B573A29026AEFF6A00BE5962 /* Koenigsegg Agera R-261mph.jpg */; };
-		B573A29F26AEFF6A00BE5962 /* Koenigsegg Agera R-261mph.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B573A29026AEFF6A00BE5962 /* Koenigsegg Agera R-261mph.jpg */; };
-		B573A2A026AEFF6A00BE5962 /* Bugatti Veyron 16.4 Super Sport-268mph.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B573A29126AEFF6A00BE5962 /* Bugatti Veyron 16.4 Super Sport-268mph.jpg */; };
-		B573A2A126AEFF6A00BE5962 /* Bugatti Veyron 16.4 Super Sport-268mph.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B573A29126AEFF6A00BE5962 /* Bugatti Veyron 16.4 Super Sport-268mph.jpg */; };
-		B573A2A226AEFF6A00BE5962 /* 9ff Porsche 911 GT2 GTurbo 1200-257mph.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B573A29226AEFF6A00BE5962 /* 9ff Porsche 911 GT2 GTurbo 1200-257mph.jpg */; };
-		B573A2A326AEFF6A00BE5962 /* 9ff Porsche 911 GT2 GTurbo 1200-257mph.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B573A29226AEFF6A00BE5962 /* 9ff Porsche 911 GT2 GTurbo 1200-257mph.jpg */; };
-		B573A2A426AEFF6A00BE5962 /* SSC Ultimate Aero TT-256mph.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B573A29326AEFF6A00BE5962 /* SSC Ultimate Aero TT-256mph.jpg */; };
-		B573A2A526AEFF6A00BE5962 /* SSC Ultimate Aero TT-256mph.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B573A29326AEFF6A00BE5962 /* SSC Ultimate Aero TT-256mph.jpg */; };
-		B573A2A626AEFF6A00BE5962 /* Vector Avtech WX8 Hypercar-270mph.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B573A29426AEFF6A00BE5962 /* Vector Avtech WX8 Hypercar-270mph.jpg */; };
-		B573A2A726AEFF6A00BE5962 /* Vector Avtech WX8 Hypercar-270mph.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B573A29426AEFF6A00BE5962 /* Vector Avtech WX8 Hypercar-270mph.jpg */; };
-		B573A2A826AEFF6A00BE5962 /* Koenigsegg Agera One-267mph.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B573A29526AEFF6A00BE5962 /* Koenigsegg Agera One-267mph.jpg */; };
-		B573A2A926AEFF6A00BE5962 /* Koenigsegg Agera One-267mph.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B573A29526AEFF6A00BE5962 /* Koenigsegg Agera One-267mph.jpg */; };
-		B573A2AB26AEFFD200BE5962 /* cars.plist in Resources */ = {isa = PBXBuildFile; fileRef = B573A2AA26AEFFD200BE5962 /* cars.plist */; };
-		B573A2AC26AEFFD200BE5962 /* cars.plist in Resources */ = {isa = PBXBuildFile; fileRef = B573A2AA26AEFFD200BE5962 /* cars.plist */; };
-		B573A2AE26AF261300BE5962 /* CarTableRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B573A2AD26AF261300BE5962 /* CarTableRow.swift */; };
+		B573A2B026AF3AD800BE5962 /* top-actresses.plist in Resources */ = {isa = PBXBuildFile; fileRef = B573A2AF26AF3AD800BE5962 /* top-actresses.plist */; };
+		B573A2B126AF3AD800BE5962 /* top-actresses.plist in Resources */ = {isa = PBXBuildFile; fileRef = B573A2AF26AF3AD800BE5962 /* top-actresses.plist */; };
+		B573A2BD26AF3AE000BE5962 /* Angelina Jolie.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B573A2B326AF3AE000BE5962 /* Angelina Jolie.jpeg */; };
+		B573A2BE26AF3AE000BE5962 /* Angelina Jolie.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B573A2B326AF3AE000BE5962 /* Angelina Jolie.jpeg */; };
+		B573A2BF26AF3AE000BE5962 /* Scarlett Johansson.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B573A2B426AF3AE000BE5962 /* Scarlett Johansson.jpeg */; };
+		B573A2C026AF3AE000BE5962 /* Scarlett Johansson.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B573A2B426AF3AE000BE5962 /* Scarlett Johansson.jpeg */; };
+		B573A2C126AF3AE000BE5962 /* Mila Kunis.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B573A2B526AF3AE000BE5962 /* Mila Kunis.jpeg */; };
+		B573A2C226AF3AE000BE5962 /* Mila Kunis.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B573A2B526AF3AE000BE5962 /* Mila Kunis.jpeg */; };
+		B573A2C326AF3AE000BE5962 /* Charlize Theron.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B573A2B626AF3AE000BE5962 /* Charlize Theron.jpeg */; };
+		B573A2C426AF3AE000BE5962 /* Charlize Theron.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B573A2B626AF3AE000BE5962 /* Charlize Theron.jpeg */; };
+		B573A2C526AF3AE000BE5962 /* Emma Stone.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B573A2B726AF3AE000BE5962 /* Emma Stone.jpeg */; };
+		B573A2C626AF3AE000BE5962 /* Emma Stone.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B573A2B726AF3AE000BE5962 /* Emma Stone.jpeg */; };
+		B573A2C726AF3AE000BE5962 /* Julia Roberts.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B573A2B826AF3AE000BE5962 /* Julia Roberts.jpeg */; };
+		B573A2C826AF3AE000BE5962 /* Julia Roberts.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B573A2B826AF3AE000BE5962 /* Julia Roberts.jpeg */; };
+		B573A2C926AF3AE000BE5962 /* Jennifer Aniston.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B573A2B926AF3AE000BE5962 /* Jennifer Aniston.jpeg */; };
+		B573A2CA26AF3AE000BE5962 /* Jennifer Aniston.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B573A2B926AF3AE000BE5962 /* Jennifer Aniston.jpeg */; };
+		B573A2CB26AF3AE000BE5962 /* Marion Cotillard.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B573A2BA26AF3AE000BE5962 /* Marion Cotillard.jpeg */; };
+		B573A2CC26AF3AE000BE5962 /* Marion Cotillard.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B573A2BA26AF3AE000BE5962 /* Marion Cotillard.jpeg */; };
+		B573A2CD26AF3AE000BE5962 /* Jessica Alba.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B573A2BB26AF3AE000BE5962 /* Jessica Alba.jpeg */; };
+		B573A2CE26AF3AE000BE5962 /* Jessica Alba.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B573A2BB26AF3AE000BE5962 /* Jessica Alba.jpeg */; };
+		B573A2CF26AF3AE000BE5962 /* Cameron Diaz.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B573A2BC26AF3AE000BE5962 /* Cameron Diaz.jpeg */; };
+		B573A2D026AF3AE000BE5962 /* Cameron Diaz.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B573A2BC26AF3AE000BE5962 /* Cameron Diaz.jpeg */; };
+		B573A2D226AF3E0C00BE5962 /* ActressRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B573A2D126AF3E0C00BE5962 /* ActressRow.swift */; };
 		B5B7D24226A8520A00BAFE2D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B7D24126A8520A00BAFE2D /* AppDelegate.swift */; };
 		B5B7D24426A8520A00BAFE2D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B7D24326A8520A00BAFE2D /* SceneDelegate.swift */; };
 		B5B7D24626A8520A00BAFE2D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B7D24526A8520A00BAFE2D /* ViewController.swift */; };
@@ -48,6 +48,7 @@
 		B5B7D28626A9D8BA00BAFE2D /* ZenTokyoZoo-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B5B7D28526A9D8BA00BAFE2D /* ZenTokyoZoo-Regular.ttf */; };
 		B5B7D28726A9D8BA00BAFE2D /* ZenTokyoZoo-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B5B7D28526A9D8BA00BAFE2D /* ZenTokyoZoo-Regular.ttf */; };
 		B5B7D28826A9D8BA00BAFE2D /* ZenTokyoZoo-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B5B7D28526A9D8BA00BAFE2D /* ZenTokyoZoo-Regular.ttf */; };
+		B5D0160926AF4BE2007B3B2E /* ActressDetailInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D0160826AF4BE2007B3B2E /* ActressDetailInterfaceController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -93,18 +94,18 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		B573A28C26AEFF6A00BE5962 /* SSC Ultimate Aero TT-267mph.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "SSC Ultimate Aero TT-267mph.jpg"; sourceTree = "<group>"; };
-		B573A28D26AEFF6A00BE5962 /* Hennessey Venom GT Spyder-270mph.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Hennessey Venom GT Spyder-270mph.jpg"; sourceTree = "<group>"; };
-		B573A28E26AEFF6A00BE5962 /* 9ff GT9-R Porsche-256mph.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "9ff GT9-R Porsche-256mph.jpg"; sourceTree = "<group>"; };
-		B573A28F26AEFF6A00BE5962 /* SSC Tuatara-267mph.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "SSC Tuatara-267mph.jpg"; sourceTree = "<group>"; };
-		B573A29026AEFF6A00BE5962 /* Koenigsegg Agera R-261mph.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Koenigsegg Agera R-261mph.jpg"; sourceTree = "<group>"; };
-		B573A29126AEFF6A00BE5962 /* Bugatti Veyron 16.4 Super Sport-268mph.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Bugatti Veyron 16.4 Super Sport-268mph.jpg"; sourceTree = "<group>"; };
-		B573A29226AEFF6A00BE5962 /* 9ff Porsche 911 GT2 GTurbo 1200-257mph.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "9ff Porsche 911 GT2 GTurbo 1200-257mph.jpg"; sourceTree = "<group>"; };
-		B573A29326AEFF6A00BE5962 /* SSC Ultimate Aero TT-256mph.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "SSC Ultimate Aero TT-256mph.jpg"; sourceTree = "<group>"; };
-		B573A29426AEFF6A00BE5962 /* Vector Avtech WX8 Hypercar-270mph.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Vector Avtech WX8 Hypercar-270mph.jpg"; sourceTree = "<group>"; };
-		B573A29526AEFF6A00BE5962 /* Koenigsegg Agera One-267mph.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Koenigsegg Agera One-267mph.jpg"; sourceTree = "<group>"; };
-		B573A2AA26AEFFD200BE5962 /* cars.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = cars.plist; sourceTree = "<group>"; };
-		B573A2AD26AF261300BE5962 /* CarTableRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarTableRow.swift; sourceTree = "<group>"; };
+		B573A2AF26AF3AD800BE5962 /* top-actresses.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "top-actresses.plist"; sourceTree = "<group>"; };
+		B573A2B326AF3AE000BE5962 /* Angelina Jolie.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Angelina Jolie.jpeg"; sourceTree = "<group>"; };
+		B573A2B426AF3AE000BE5962 /* Scarlett Johansson.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Scarlett Johansson.jpeg"; sourceTree = "<group>"; };
+		B573A2B526AF3AE000BE5962 /* Mila Kunis.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Mila Kunis.jpeg"; sourceTree = "<group>"; };
+		B573A2B626AF3AE000BE5962 /* Charlize Theron.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Charlize Theron.jpeg"; sourceTree = "<group>"; };
+		B573A2B726AF3AE000BE5962 /* Emma Stone.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Emma Stone.jpeg"; sourceTree = "<group>"; };
+		B573A2B826AF3AE000BE5962 /* Julia Roberts.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Julia Roberts.jpeg"; sourceTree = "<group>"; };
+		B573A2B926AF3AE000BE5962 /* Jennifer Aniston.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Jennifer Aniston.jpeg"; sourceTree = "<group>"; };
+		B573A2BA26AF3AE000BE5962 /* Marion Cotillard.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Marion Cotillard.jpeg"; sourceTree = "<group>"; };
+		B573A2BB26AF3AE000BE5962 /* Jessica Alba.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Jessica Alba.jpeg"; sourceTree = "<group>"; };
+		B573A2BC26AF3AE000BE5962 /* Cameron Diaz.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cameron Diaz.jpeg"; sourceTree = "<group>"; };
+		B573A2D126AF3E0C00BE5962 /* ActressRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActressRow.swift; sourceTree = "<group>"; };
 		B5B7D23E26A8520A00BAFE2D /* FingerTapCount.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FingerTapCount.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5B7D24126A8520A00BAFE2D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B5B7D24326A8520A00BAFE2D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -125,6 +126,7 @@
 		B5B7D27426A8526A00BAFE2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B5B7D27626A8526A00BAFE2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B5B7D28526A9D8BA00BAFE2D /* ZenTokyoZoo-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ZenTokyoZoo-Regular.ttf"; sourceTree = "<group>"; };
+		B5D0160826AF4BE2007B3B2E /* ActressDetailInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActressDetailInterfaceController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,21 +147,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		B573A28B26AEFF6A00BE5962 /* cars-images */ = {
+		B573A2B226AF3AE000BE5962 /* top10images */ = {
 			isa = PBXGroup;
 			children = (
-				B573A28C26AEFF6A00BE5962 /* SSC Ultimate Aero TT-267mph.jpg */,
-				B573A28D26AEFF6A00BE5962 /* Hennessey Venom GT Spyder-270mph.jpg */,
-				B573A28E26AEFF6A00BE5962 /* 9ff GT9-R Porsche-256mph.jpg */,
-				B573A28F26AEFF6A00BE5962 /* SSC Tuatara-267mph.jpg */,
-				B573A29026AEFF6A00BE5962 /* Koenigsegg Agera R-261mph.jpg */,
-				B573A29126AEFF6A00BE5962 /* Bugatti Veyron 16.4 Super Sport-268mph.jpg */,
-				B573A29226AEFF6A00BE5962 /* 9ff Porsche 911 GT2 GTurbo 1200-257mph.jpg */,
-				B573A29326AEFF6A00BE5962 /* SSC Ultimate Aero TT-256mph.jpg */,
-				B573A29426AEFF6A00BE5962 /* Vector Avtech WX8 Hypercar-270mph.jpg */,
-				B573A29526AEFF6A00BE5962 /* Koenigsegg Agera One-267mph.jpg */,
+				B573A2B326AF3AE000BE5962 /* Angelina Jolie.jpeg */,
+				B573A2B426AF3AE000BE5962 /* Scarlett Johansson.jpeg */,
+				B573A2B526AF3AE000BE5962 /* Mila Kunis.jpeg */,
+				B573A2B626AF3AE000BE5962 /* Charlize Theron.jpeg */,
+				B573A2B726AF3AE000BE5962 /* Emma Stone.jpeg */,
+				B573A2B826AF3AE000BE5962 /* Julia Roberts.jpeg */,
+				B573A2B926AF3AE000BE5962 /* Jennifer Aniston.jpeg */,
+				B573A2BA26AF3AE000BE5962 /* Marion Cotillard.jpeg */,
+				B573A2BB26AF3AE000BE5962 /* Jessica Alba.jpeg */,
+				B573A2BC26AF3AE000BE5962 /* Cameron Diaz.jpeg */,
 			);
-			path = "cars-images";
+			path = top10images;
 			sourceTree = "<group>";
 		};
 		B5B7D23526A8520A00BAFE2D = {
@@ -211,14 +213,15 @@
 		B5B7D26D26A8526A00BAFE2D /* WristCompanion WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
+				B573A2AF26AF3AD800BE5962 /* top-actresses.plist */,
 				B5B7D26E26A8526A00BAFE2D /* InterfaceController.swift */,
+				B573A2B226AF3AE000BE5962 /* top10images */,
 				B5B7D27026A8526A00BAFE2D /* ExtensionDelegate.swift */,
-				B573A28B26AEFF6A00BE5962 /* cars-images */,
 				B5B7D27226A8526A00BAFE2D /* ComplicationController.swift */,
 				B5B7D27426A8526A00BAFE2D /* Assets.xcassets */,
 				B5B7D27626A8526A00BAFE2D /* Info.plist */,
-				B573A2AA26AEFFD200BE5962 /* cars.plist */,
-				B573A2AD26AF261300BE5962 /* CarTableRow.swift */,
+				B573A2D126AF3E0C00BE5962 /* ActressRow.swift */,
+				B5D0160826AF4BE2007B3B2E /* ActressDetailInterfaceController.swift */,
 			);
 			path = "WristCompanion WatchKit Extension";
 			sourceTree = "<group>";
@@ -369,20 +372,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B573A29C26AEFF6A00BE5962 /* SSC Tuatara-267mph.jpg in Resources */,
-				B573A2A026AEFF6A00BE5962 /* Bugatti Veyron 16.4 Super Sport-268mph.jpg in Resources */,
-				B573A29A26AEFF6A00BE5962 /* 9ff GT9-R Porsche-256mph.jpg in Resources */,
-				B573A2A826AEFF6A00BE5962 /* Koenigsegg Agera One-267mph.jpg in Resources */,
-				B573A29626AEFF6A00BE5962 /* SSC Ultimate Aero TT-267mph.jpg in Resources */,
+				B573A2C726AF3AE000BE5962 /* Julia Roberts.jpeg in Resources */,
+				B573A2CB26AF3AE000BE5962 /* Marion Cotillard.jpeg in Resources */,
 				B5B7D26326A8526A00BAFE2D /* Assets.xcassets in Resources */,
-				B573A29E26AEFF6A00BE5962 /* Koenigsegg Agera R-261mph.jpg in Resources */,
+				B573A2C926AF3AE000BE5962 /* Jennifer Aniston.jpeg in Resources */,
 				B5B7D28726A9D8BA00BAFE2D /* ZenTokyoZoo-Regular.ttf in Resources */,
-				B573A29826AEFF6A00BE5962 /* Hennessey Venom GT Spyder-270mph.jpg in Resources */,
-				B573A2AB26AEFFD200BE5962 /* cars.plist in Resources */,
-				B573A2A226AEFF6A00BE5962 /* 9ff Porsche 911 GT2 GTurbo 1200-257mph.jpg in Resources */,
-				B573A2A426AEFF6A00BE5962 /* SSC Ultimate Aero TT-256mph.jpg in Resources */,
-				B573A2A626AEFF6A00BE5962 /* Vector Avtech WX8 Hypercar-270mph.jpg in Resources */,
+				B573A2C326AF3AE000BE5962 /* Charlize Theron.jpeg in Resources */,
+				B573A2C126AF3AE000BE5962 /* Mila Kunis.jpeg in Resources */,
+				B573A2BF26AF3AE000BE5962 /* Scarlett Johansson.jpeg in Resources */,
+				B573A2CD26AF3AE000BE5962 /* Jessica Alba.jpeg in Resources */,
+				B573A2C526AF3AE000BE5962 /* Emma Stone.jpeg in Resources */,
+				B573A2B026AF3AD800BE5962 /* top-actresses.plist in Resources */,
 				B5B7D26126A8526900BAFE2D /* Interface.storyboard in Resources */,
+				B573A2CF26AF3AE000BE5962 /* Cameron Diaz.jpeg in Resources */,
+				B573A2BD26AF3AE000BE5962 /* Angelina Jolie.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -390,20 +393,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B573A29D26AEFF6A00BE5962 /* SSC Tuatara-267mph.jpg in Resources */,
-				B573A2A126AEFF6A00BE5962 /* Bugatti Veyron 16.4 Super Sport-268mph.jpg in Resources */,
-				B573A29B26AEFF6A00BE5962 /* 9ff GT9-R Porsche-256mph.jpg in Resources */,
-				B573A2A926AEFF6A00BE5962 /* Koenigsegg Agera One-267mph.jpg in Resources */,
-				B573A29726AEFF6A00BE5962 /* SSC Ultimate Aero TT-267mph.jpg in Resources */,
+				B573A2C826AF3AE000BE5962 /* Julia Roberts.jpeg in Resources */,
+				B573A2CC26AF3AE000BE5962 /* Marion Cotillard.jpeg in Resources */,
 				B5B7D27526A8526A00BAFE2D /* Assets.xcassets in Resources */,
-				B573A29F26AEFF6A00BE5962 /* Koenigsegg Agera R-261mph.jpg in Resources */,
+				B573A2CA26AF3AE000BE5962 /* Jennifer Aniston.jpeg in Resources */,
 				B53CF66626AA11FC00756255 /* Assets.xcassets in Resources */,
-				B573A29926AEFF6A00BE5962 /* Hennessey Venom GT Spyder-270mph.jpg in Resources */,
-				B573A2AC26AEFFD200BE5962 /* cars.plist in Resources */,
-				B573A2A326AEFF6A00BE5962 /* 9ff Porsche 911 GT2 GTurbo 1200-257mph.jpg in Resources */,
-				B573A2A526AEFF6A00BE5962 /* SSC Ultimate Aero TT-256mph.jpg in Resources */,
-				B573A2A726AEFF6A00BE5962 /* Vector Avtech WX8 Hypercar-270mph.jpg in Resources */,
+				B573A2C426AF3AE000BE5962 /* Charlize Theron.jpeg in Resources */,
+				B573A2C226AF3AE000BE5962 /* Mila Kunis.jpeg in Resources */,
+				B573A2C026AF3AE000BE5962 /* Scarlett Johansson.jpeg in Resources */,
+				B573A2CE26AF3AE000BE5962 /* Jessica Alba.jpeg in Resources */,
+				B573A2C626AF3AE000BE5962 /* Emma Stone.jpeg in Resources */,
+				B573A2B126AF3AD800BE5962 /* top-actresses.plist in Resources */,
 				B5B7D28826A9D8BA00BAFE2D /* ZenTokyoZoo-Regular.ttf in Resources */,
+				B573A2D026AF3AE000BE5962 /* Cameron Diaz.jpeg in Resources */,
+				B573A2BE26AF3AE000BE5962 /* Angelina Jolie.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,9 +427,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B573A2D226AF3E0C00BE5962 /* ActressRow.swift in Sources */,
 				B5B7D27126A8526A00BAFE2D /* ExtensionDelegate.swift in Sources */,
+				B5D0160926AF4BE2007B3B2E /* ActressDetailInterfaceController.swift in Sources */,
 				B5B7D26F26A8526A00BAFE2D /* InterfaceController.swift in Sources */,
-				B573A2AE26AF261300BE5962 /* CarTableRow.swift in Sources */,
 				B5B7D27326A8526A00BAFE2D /* ComplicationController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

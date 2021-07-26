@@ -8,37 +8,40 @@
 import WatchKit
 import Foundation
 
-struct SpeedCarData {
-    var imageName: String
-    var carTitle: String
-    var topSpeed: String
-}
 
+struct Actress {
+    var name: String
+    var bio: String
+    var pp: String
+}
 
 class InterfaceController: WKInterfaceController {
     
-    @IBOutlet var carTableView: WKInterfaceTable!
+    @IBOutlet weak var actressTable: WKInterfaceTable!
     
     override func awake(withContext context: Any?) {
-        guard let path = Bundle.main.path(forResource: "cars", ofType: "plist"),
-              let dict: NSDictionary = NSDictionary(contentsOfFile: path)
+        guard let path = Bundle.main.path(forResource: "top-actresses", ofType: "plist"),
+              let dict = NSArray(contentsOfFile: path)
         else { return }
         
-        carTableView.setNumberOfRows(dict.allKeys.count, withRowType: "CarTableRow")
+        
+        actressTable.setNumberOfRows(dict.count, withRowType: "ActressRow")
         
         var indexPath: Int = 0
-        for (_,value) in dict {
-            if let carEntry = value as? Array<String>, carEntry.count == 2, let row = carTableView.rowController(at: indexPath) as? CarTableRow {
-                let carImage = carEntry[0]
-                let carSpeed = carEntry[1]
-                let carName = String(carImage.split(separator: "-")[0])
-                
-                row.datasource = SpeedCarData(imageName: carImage, carTitle: carName, topSpeed: carSpeed)
-                indexPath += 1
-                
-                
-            }
-        }
+        for value in dict {
+           if let carEntry = value as? Array<String>, carEntry.count == 3, let row = actressTable.rowController(at: indexPath) as? ActressRow {
+               let name = carEntry[0]
+               let picture = carEntry[1]
+               let bio = carEntry[2]
+               
+               row.datasource = Actress(name: name, bio: bio, pp: picture)
+               indexPath += 1
+               
+               
+           }
+       }
+        
+        
     }
     
     override func willActivate() {
@@ -47,6 +50,13 @@ class InterfaceController: WKInterfaceController {
     
     override func didDeactivate() {
         
+    }
+    
+    override func table(_ table: WKInterfaceTable, didSelectRowAt rowIndex: Int) {
+        guard let row = actressTable.rowController(at: rowIndex) as? ActressRow,
+              let data = row.datasource else { return }
+        
+        presentController(withName: "ActressDetailInterfaceController", context: data)
     }
 
    
