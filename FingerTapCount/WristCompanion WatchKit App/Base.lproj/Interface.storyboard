@@ -11,21 +11,54 @@
             <objects>
                 <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="WristCompanion_WatchKit_App" customModuleProvider="target">
                     <items>
-                        <button width="136" height="299" alignment="left" backgroundImage="head" id="PCF-GZ-vUY">
-                            <connections>
-                                <action selector="didTapCoin" destination="AgC-eL-Hgc" id="skw-Fa-bHE"/>
-                            </connections>
-                        </button>
+                        <imageView alignment="left" image="dollarsign.circle" catalog="system" id="AOq-Vj-juv"/>
+                        <label alignment="left" text="BTC -&gt; USD quote:" id="cop-YX-dee"/>
+                        <label alignment="left" id="FN2-VK-2sp"/>
                     </items>
                     <connections>
-                        <outlet property="coinButton" destination="PCF-GZ-vUY" id="vLc-Mi-3cE"/>
+                        <outlet property="price" destination="FN2-VK-2sp" id="a02-R0-Qeq"/>
+                        <segue destination="v1G-Jt-NAg" kind="relationship" relationship="nextPage" id="PgB-gn-ucf"/>
                     </connections>
                 </controller>
             </objects>
             <point key="canvasLocation" x="777" y="-125"/>
         </scene>
+        <!--Page2-->
+        <scene sceneID="H9d-ko-RtW">
+            <objects>
+                <controller id="v1G-Jt-NAg" customClass="Page2" customModule="WristCompanion_WatchKit_Extension">
+                    <items>
+                        <imageView alignment="left" image="dollarsign.circle" catalog="system" id="gaE-Fg-yT9"/>
+                        <label width="136" alignment="left" text="BTC -&gt; Euro quote:" numberOfLines="2" id="dXF-qh-JZ6"/>
+                        <label alignment="left" id="z1h-tW-VTo"/>
+                    </items>
+                    <connections>
+                        <outlet property="price" destination="z1h-tW-VTo" id="J7F-WP-boc"/>
+                        <segue destination="DrE-LQ-jJp" kind="relationship" relationship="nextPage" id="dgg-O5-6Gt"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="777" y="220"/>
+        </scene>
+        <!--Page3-->
+        <scene sceneID="Si0-gj-YkE">
+            <objects>
+                <controller id="DrE-LQ-jJp" customClass="Page3" customModule="WristCompanion_WatchKit_Extension">
+                    <items>
+                        <imageView alignment="left" image="dollarsign.circle" catalog="system" id="ceJ-Pv-awO"/>
+                        <label alignment="left" text="BTC -&gt; MEX quote:" id="5ha-in-UR2"/>
+                        <label alignment="left" id="PGS-gB-vyN"/>
+                    </items>
+                    <connections>
+                        <outlet property="page3Label" destination="5ha-in-UR2" id="mci-2g-ukC"/>
+                        <outlet property="price" destination="PGS-gB-vyN" id="inD-xe-K3n"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="777" y="553"/>
+        </scene>
     </scenes>
     <resources>
-        <image name="head" width="200" height="200"/>
+        <image name="dollarsign.circle" catalog="system" width="128" height="121"/>
     </resources>
 </document>

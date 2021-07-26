@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		B53CF66626AA11FC00756255 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5B7D26226A8526A00BAFE2D /* Assets.xcassets */; };
+		B53CF6BE26AB236700756255 /* Page2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53CF6BD26AB236700756255 /* Page2.swift */; };
+		B53CF6C026AB23CE00756255 /* Page3.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53CF6BF26AB23CE00756255 /* Page3.swift */; };
 		B5B7D24226A8520A00BAFE2D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B7D24126A8520A00BAFE2D /* AppDelegate.swift */; };
 		B5B7D24426A8520A00BAFE2D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B7D24326A8520A00BAFE2D /* SceneDelegate.swift */; };
 		B5B7D24626A8520A00BAFE2D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B7D24526A8520A00BAFE2D /* ViewController.swift */; };
@@ -70,6 +72,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B53CF6BD26AB236700756255 /* Page2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page2.swift; sourceTree = "<group>"; };
+		B53CF6BF26AB23CE00756255 /* Page3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page3.swift; sourceTree = "<group>"; };
 		B5B7D23E26A8520A00BAFE2D /* FingerTapCount.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FingerTapCount.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5B7D24126A8520A00BAFE2D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B5B7D24326A8520A00BAFE2D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -164,6 +168,8 @@
 				B5B7D27226A8526A00BAFE2D /* ComplicationController.swift */,
 				B5B7D27426A8526A00BAFE2D /* Assets.xcassets */,
 				B5B7D27626A8526A00BAFE2D /* Info.plist */,
+				B53CF6BD26AB236700756255 /* Page2.swift */,
+				B53CF6BF26AB23CE00756255 /* Page3.swift */,
 			);
 			path = "WristCompanion WatchKit Extension";
 			sourceTree = "<group>";
@@ -347,7 +353,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B53CF6C026AB23CE00756255 /* Page3.swift in Sources */,
 				B5B7D27126A8526A00BAFE2D /* ExtensionDelegate.swift in Sources */,
+				B53CF6BE26AB236700756255 /* Page2.swift in Sources */,
 				B5B7D26F26A8526A00BAFE2D /* InterfaceController.swift in Sources */,
 				B5B7D27326A8526A00BAFE2D /* ComplicationController.swift in Sources */,
 			);
